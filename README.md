@@ -1,0 +1,8 @@
+# Stocks Compose (work-in-progress :construction:)
+
+A stock detail app made in Jetpack Compose, the data is mocked locally and was provided by the [polygon](https://polygon.io/)
+and [finnhub](https://finnhub.io/) APIs.
+
+| Behavior                                                                                              | Loading                                                                                                            | Line                                                                                                               | Candle                                                                                                               |
+|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| <video src="https://github.com/user-attachments/assets/a4d4c9c7-bc53-4c2c-bf3b-6073fe9f4463"></video> | <img width="291" alt="Line" src="https://github.com/user-attachments/assets/041b5163-49cc-422a-bfa4-ce4c278bb7f4"> | <img width="291" alt="Line" src="https://github.com/user-attachments/assets/60a0bdd2-1ee4-47dc-bd9d-506e8ab7d3c6"> | <img width="291" alt="Candle" src="https://github.com/user-attachments/assets/648e6575-1914-4b23-9c30-27c719adbcb1"> |

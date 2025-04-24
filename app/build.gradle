@@ -1,0 +1,38 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+apply {
+    from("$rootDir/gradle/conventions/ui-conventions.gradle")
+    from("$rootDir/gradle/conventions/hilt-conventions.gradle")
+    from("$rootDir/gradle/conventions/android-conventions.gradle")
+}
+
+android {
+
+    namespace "com.franksap2.finances"
+
+    defaultConfig {
+        applicationId "com.franksap2.finances"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            consumerProguardFiles("consumer-rules.pro")
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    packagingOptions {
+        exclude "META-INF/*"
+    }
+}
+
+dependencies {
+
+    implementation(project(":domain"))
+    implementation(project(":data"))
+
+}

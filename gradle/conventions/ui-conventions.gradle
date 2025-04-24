@@ -1,0 +1,19 @@
+apply plugin: libs.plugins.compose.compiler.get().pluginId
+
+android {
+    buildFeatures {
+        compose true
+    }
+}
+
+dependencies {
+
+    implementation libs.google.android.material
+
+    implementation platform(libs.androidx.bom)
+    implementation(libs.bundles.compose)
+
+    debugImplementation(libs.androidx.compose.ui.tooling)
+    debugImplementation(libs.android.compose.ui.test.manifest)
+
+}

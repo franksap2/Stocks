@@ -1,0 +1,9 @@
+apply plugin: libs.plugins.hilt.get().pluginId
+apply plugin: libs.plugins.ksp.get().pluginId
+
+dependencies {
+
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler)
+
+}
