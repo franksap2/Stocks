@@ -1,6 +1,6 @@
 # Stocks Compose (work-in-progress :construction:)
 
-A stock detail app made in Jetpack Compose, the data is mocked locally and was provided by the [polygon](https://polygon.io/)
+A stock detail app made in Jetpack Compose, the data is mocked locally and was provided by [polygon](https://polygon.io/)
 and [finnhub](https://finnhub.io/) APIs.
 
 | Behavior                                                                                              | Loading                                                                                                            | Line                                                                                                               | Candle                                                                                                               |
